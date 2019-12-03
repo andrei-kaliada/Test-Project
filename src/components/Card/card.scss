@@ -1,0 +1,41 @@
+.card{
+    border-bottom:1px solid #e3e3e3;
+    padding: 15px 10px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    
+
+    &__info-date{
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: flex;
+        &-fullDate{
+
+        }
+
+        &-fullTime{
+            margin-left: 10px;
+            font-weight: normal;
+            font-size: 14px;
+            display: flex;
+            align-items: flex-end;
+            color:#777777;;
+        }
+    }
+
+    
+
+    &__info-type{
+        p{
+            padding-bottom: 5px;
+            color:#777777;;
+        }
+    }
+}
+
+.isActive{
+    margin: 10px 0;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
+}
+

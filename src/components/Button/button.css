@@ -1,0 +1,30 @@
+.button {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.button a button:first-child {
+  height: 40px;
+  width: 150px;
+  border-radius: 4px 0 0 4px;
+  background-color: #1c1c5c;
+  color: #fff;
+}
+
+.button button:last-child {
+  height: 40px;
+  width: 150px;
+  border-radius: 0 4px 4px 0;
+  background-color: mediumseagreen;
+  color: #fff;
+}
+/*# sourceMappingURL=button.css.map */

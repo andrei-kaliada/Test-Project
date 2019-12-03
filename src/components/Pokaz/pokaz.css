@@ -1,0 +1,121 @@
+.wrapperContainer {
+  background-color: #f8f8f8;
+  font-family: 'Roboto';
+  margin-bottom: 50px;
+}
+
+.wrapperContainer__top {
+  padding: 10px 0;
+}
+
+.wrapperContainer__arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapperContainer__arrow svg {
+  color: #000;
+}
+
+.wrapperContainer__text {
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+
+.wrapperContainer__text p:first-child {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wrapperContainer__text p:last-child {
+  margin-top: 10px;
+  color: #777777;
+  font-weight: 500;
+}
+
+.wrapperContainer__info {
+  padding-top: 15px;
+}
+
+.wrapperContainer__info-headline {
+  color: #777777;
+}
+
+.wrapperContainer__info-text {
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom: 25px;
+}
+
+.wrapperContainer .map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.wrapperContainer .map p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.wrapperContainer .containerImage img {
+  width: 100%;
+}
+
+.wrapperContainer .wrapper-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.wrapperContainer .wrapper-date p:first-child {
+  margin-right: 90px;
+}
+
+.containerImage img {
+  width: 100%;
+}
+
+.container-button {
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+  width: 100%;
+  -webkit-box-shadow: 0px -1px 2px #dddddd;
+          box-shadow: 0px -1px 2px #dddddd;
+}
+
+.container-button button:first-child {
+  margin: 10px 0;
+  width: 100%;
+  background-color: mediumseagreen;
+  color: #fff;
+}
+/*# sourceMappingURL=pokaz.css.map */

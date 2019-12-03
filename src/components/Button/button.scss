@@ -1,0 +1,26 @@
+.button{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+       button:first-child{
+        height: 40px;
+        width: 150px;
+        border-radius: 4px 0 0 4px;
+        background-color: rgb(28, 28, 92);
+        color:#fff;
+        
+        } 
+    }
+    
+
+    button:last-child{
+        height: 40px;
+        width: 150px;
+        border-radius: 0 4px 4px 0;
+        background-color:mediumseagreen;
+        color:#fff;
+    }
+}

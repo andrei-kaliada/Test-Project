@@ -1,0 +1,39 @@
+.card {
+  border-bottom: 1px solid #e3e3e3;
+  padding: 15px 10px;
+  cursor: pointer;
+  font-family: 'Roboto';
+}
+
+.card__info-date {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card__info-date-fullTime {
+  margin-left: 10px;
+  font-weight: normal;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #777777;
+}
+
+.card__info-type p {
+  padding-bottom: 5px;
+  color: #777777;
+}
+
+.isActive {
+  margin: 10px 0;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 2px solid #e3e3e3;
+}
+/*# sourceMappingURL=card.css.map */
